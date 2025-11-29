@@ -1,0 +1,4 @@
+rootProject.name = 'order-inventory-microservices-assignment'
+
+include 'inventory-service'
+include 'order-service'

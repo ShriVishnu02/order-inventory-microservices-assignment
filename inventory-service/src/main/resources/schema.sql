@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS products (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS batches (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    product_id BIGINT NOT NULL,
+    quantity INT NOT NULL,
+    expiry_date DATE NOT NULL,
+    batch_number VARCHAR(255) NOT NULL,
+    FOREIGN KEY (product_id) REFERENCES products(id)
+);
