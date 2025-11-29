@@ -1,6 +1,7 @@
 package com.assignment.microservices.inventory.model;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,6 +19,7 @@ public class Batch {
     private Long id;
     @ManyToOne()
     @JoinColumn(name = "product_id")
+    @JsonBackReference
     private Product product;
     private Integer quantity;
     private LocalDate expiryDate;
