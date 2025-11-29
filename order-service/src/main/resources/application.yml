@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   application:
     name: order-service
@@ -22,4 +22,4 @@ spring:
         format_sql: true
 inventory:
   service:
-    url: http://localhost:8080
+    url: http://localhost:8081
