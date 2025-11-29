@@ -4,8 +4,6 @@ A Spring Boot microservices application with Order Service and Inventory Service
 
 ## Project Setup
 
-## Project Setup
-
 ### Prerequisites
 
 ### Prerequisites- Java 17
@@ -23,8 +21,6 @@ A Spring Boot microservices application with Order Service and Inventory Service
 ./gradlew clean build```
 
 ```
-
-### Running Services
 
 ### Running Services
 
