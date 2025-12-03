@@ -2,10 +2,6 @@
 
 A Spring Boot microservices application with Order Service and Inventory Service using H2 database.
 
-A Spring Boot microservices application with Order Service and Inventory Service using H2 database.
-
-## Project Setup
-
 ## Project Setup
 
 ### Prerequisites
@@ -25,8 +21,6 @@ A Spring Boot microservices application with Order Service and Inventory Service
 ./gradlew clean build```
 
 ```
-
-### Running Services
 
 ### Running Services
 
